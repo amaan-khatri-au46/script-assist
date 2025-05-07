@@ -15,7 +15,7 @@ export default function App() {
 
 	return (
 		<MantineProvider theme={theme} withGlobalStyles withNormalizeCSS>
-			<ToastContainer />
+			<ToastContainer className='px-4 mt-2'/>
 			<Outlet />
 		</MantineProvider>
 	);

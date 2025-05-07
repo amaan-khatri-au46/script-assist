@@ -105,3 +105,9 @@ Products List: /products
 Single Product Detail: /products/:id
 
 Categories: /products/categories
+
+
+# Credentials
+Use the following credentials to log in:
+Username: emilys
+Password: emilyspass
