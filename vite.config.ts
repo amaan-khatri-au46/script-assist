@@ -16,6 +16,9 @@ export default defineConfig({
   build: {
     outDir: 'build',
   },
+  esbuild: {
+    drop: ['console', 'debugger'],
+  },
   server: {
     port: 3000,
   },
