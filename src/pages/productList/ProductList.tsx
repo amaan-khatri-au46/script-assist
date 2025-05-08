@@ -150,7 +150,10 @@ const ProductList = () => {
           />
           <Select
             value={String(limit)}
-            onChange={(value) => setLimit(Number(value))}
+            onChange={(value) => {
+              setLimit(Number(value));
+              setPage(1);
+            }}
             data={pageSizeOptions}
             className="w-full sm:w-32"
           />
